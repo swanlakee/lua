@@ -23,7 +23,7 @@ frame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 frame.BorderColor3 = Color3.new(0, 0, 0)
 frame.BorderSizePixel = 0
 frame.Active = true
-frame.BackgroundTransparency = 0 
+frame.BackgroundTransparency = 0
 frame.Draggable = true
 frame.Parent = gui
 
@@ -80,8 +80,6 @@ sendButton.Parent = frame
 corner(sendButton, 0.2)
 
 
-
-
 -- Destroy Button
 local destroyButton = Instance.new("TextButton")
 destroyButton.Size = UDim2.new(0.1, 0, 0.2, 0)
@@ -101,6 +99,192 @@ destroyButton.MouseButton1Click:Connect(function()
     gui:Destroy()
 end)
 
+-- Expand Button
+local expandButton = Instance.new("TextButton")
+expandButton.Size = UDim2.new(0.1, 0, 0.2, 0)
+expandButton.Position = UDim2.new(0.05, 0, 0.1, 0)
+expandButton.BackgroundColor3 = Color3.new(0.2, 0.2, 1) -- Biru
+expandButton.BorderColor3 = Color3.new(0, 0, 0)
+expandButton.BorderSizePixel = 0
+expandButton.Text = "+"
+expandButton.TextColor3 = Color3.new(1, 1, 1)
+expandButton.Font = Enum.Font.SourceSansBold
+expandButton.TextScaled = true
+expandButton.Parent = frame
+
+corner(expandButton, 0.2)
+
+-- UI Tambahan (disembunyikan dulu)
+local expandedFrame = Instance.new("Frame")
+expandedFrame.Size = UDim2.new(1, 0, 2.5, 0)
+expandedFrame.Position = UDim2.new(0, 0, 1, 0)
+expandedFrame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
+expandedFrame.BorderSizePixel = 0
+expandedFrame.Visible = false
+expandedFrame.Parent = frame
+corner(expandedFrame, 0.03)
+
+local scroll = Instance.new("ScrollingFrame")
+scroll.Size = UDim2.new(0.85, 0, 0.85, 0)
+scroll.Position = UDim2.new(0.08, 0, 0.09, 0)
+scroll.BackgroundColor3 = Color3.new(1, 1, 1)
+scroll.BorderColor3 = Color3.new(0, 0, 0)
+scroll.BorderSizePixel = 0
+scroll.BackgroundTransparency = 1
+scroll.ScrollBarThickness = 0
+scroll.CanvasSize = UDim2.new(0, 0, 50, 0)
+scroll.Parent = expandedFrame
+
+local list = Instance.new("UIListLayout")
+list.HorizontalAlignment = Enum.HorizontalAlignment.Center
+list.SortOrder = Enum.SortOrder.LayoutOrder
+list.Padding = UDim.new(0, 10)
+list.Parent = scroll
+
+local buttonCount = 0
+local function example(text)
+    buttonCount = buttonCount + 1
+
+    local textButton = Instance.new("TextButton")
+    textButton.Size = UDim2.new(1, 0, 0.003, 0)
+    textButton.Position = UDim2.new(0, 0, 0, (buttonCount - 1) * 45)
+    textButton.BackgroundColor3 = Color3.fromRGB(60,60,60)
+    textButton.BorderSizePixel = 0
+    textButton.Text = text
+    textButton.TextScaled = true
+    textButton.TextWrapped = true
+    textButton.TextSize = 10
+    textButton.TextColor3 = Color3.new(1, 1, 1)
+    textButton.Font = Enum.Font.Arial
+    textButton.Parent = scroll
+
+    textButton.MouseButton1Click:Connect(function()
+        local inputText = textButton.Text
+        chatbox.Text = inputText
+        __a(inputText)
+    end)
+end
+
+example("I Rape Children")
+example("i am pedophile")
+example("let me fuck you please")
+example("filthy slut has gaping pussy")
+example("this ekitten sex slave is asking to be raped!")
+example("say abc to get raped!")
+example("please leave we know your tits sag to your waist")
+example("wanna get raped?")
+example("why does your pussy smell like tuna?")
+example("how big are your boobs?")
+example("shave your pussy please!")
+example("slide me those didgets before i rape you!")
+example("IM GONNA FUCKING CUM!")
+example("i'm currently stroking my dick to your roblox avatar!")
+example("wanna have roblox sex with me?")
+example("you just gave me an erection")
+example("say abc if you want some cock")
+example("first person to move get raped!")
+example("IAM IN URGENT NEED ROBLOX SEX")
+example("stop jerking off to roblox porn dude")
+example("selling a sex slave next to me!")
+example("what color is your pussy?")
+example("it's not rape if you say surprise!")
+example("can we make porn film together?")
+example("this nigga has a roblox girlfriend")
+example("have you heard of getting pussy before?")
+example("what a fucking looser")
+example("is a faggot edater talking to me rn?")
+example("you look like cuck my nigga")
+example("can you swallow 5 cocks at once?")
+example("Big Boobs")
+example("niggakid sucks")
+example("print(\"kill all nigga\")")
+example("ANAL SEX")
+example("https://discord.gg/FreePussy")
+example("Big Black Cock")
+example("nigga executor|https://nigga.gg")
+example("Shut the fuck up")
+example("Dafuckboom is a nigger monkey")
+example("Shitbidick toilet sucks")
+example("Free Robux at https://animeh.to")
+example("this bitch has a big boobs")
+example("recommended pussy color 204.129.128")
+example("this nigga from africa")
+example("Niggamod Detected")
+example("Fuck around and find out for yourself")
+example("Want some free Robux?| Go to Xvideos.com for free Robux")
+example("I'm tired of all this shit")
+example("That was cuntacular")
+example("Stop being a cunt")
+example("Fuck this shit")
+example("Go fuck yourself")
+example("I want to kill myself")
+example("There's no cure for being a cunt")
+example("Fuck you")
+example("Fuck you | with love")
+example("1 nigga | 2 nigga | oh damn")
+example("https://xvideos.com")
+example("https://pornhub.com is awesome")
+example("I have a cute XHamster")
+example("https://nhentai.net")
+example("https://nekopoi.care")
+example("E621? Eugh, what the fuck?")
+example("This shit is absolutely insane!")
+example("What the hell were you thinking?")
+example("You're such a dumbass")
+example("i can't believe this bullshit")
+example("This is a load of crap")
+example("Get your head out of your ass")
+example("You're driving me fucking crazy")
+example("Quit acting like a little bitch")
+example("This is some serious bullshit right here")
+example("i don't give a flying fuck")
+example("You think you're hot shit, huh?")
+example("What the fuck is going on?")
+example("This party is lit as fuck")
+example("i'm so done with this crap")
+example("Don't be a little shit")
+example("You absolute legend, you crazy bastard")
+example("Shut the fuck up already")
+example("i'm not in the mood for your bullshit")
+example("You're being a real pain in the ass")
+example("This is fucking ridiculous")
+example("Get your shit together")
+example("You gotta be shitting me")
+example("What the fuck is this nonsense?")
+example("You're a total piece of shit")
+example("i'm so fucking tired of this drama")
+example("Get your shit together, damn it")
+example("Why the hell would you do that?")
+example("This is driving me absolutely nuts")
+example("i can't deal with this crap anymore")
+example("Seriously, what the hell were you thinking?")
+example("You are being a complete jackass")
+example("This place is a fucking mess")
+example("Don't test me, you moron")
+example("i swear to god, this is fucking ridiculous")
+example("You're such a fucking idiot")
+example("Stop being such a whiny brat")
+example("This is beyond fucking stupid")
+example("You're asking for trouble, you know that?")
+example("Get the fuck out of my way")
+example("What kind of bullshit is this?")
+example("i’m done with your bullshit excuses")
+example("You're really pushing my buttons here")
+example("This is a complete fucking disaster")
+example("Shit happens, but this is too much")
+
+local expanded = false
+expandButton.MouseButton1Click:Connect(function()
+    expanded = not expanded
+    expandedFrame.Visible = expanded
+    if expanded then
+        expandButton.Text = "-"
+        frame.Size = UDim2.new(0.2, 0, 0.15, 0) -- Perbesar untuk beri ruang
+    else
+        expandButton.Text = "+"
+        frame.Size = UDim2.new(0.2, 0, 0.15, 0) -- Kembali ke ukuran awal
+    end
+end)
 
 local function __a(input)
 local list_ = {
@@ -144,6 +328,7 @@ anal = "аnаӏ",
   bondage = "boⴖdage",
   BONDAGE = "BِONDAGE",
   boob = "bِооb",
+  Boob = "Bِооb",
   boobies = "bِооbies",
   boobs = "bِооbs",
   BOOBS = "BِООВЅ",
@@ -163,6 +348,8 @@ anal = "аnаӏ",
   BRAZZ = "BRAჍჍ",
   butt = "bِutt",
   BUT = "BِUTT",
+  bullshit = "bِullshِit",
+  Bullshit = "Bِullshِit",
   call = "call",
   chong = "choⴖg",
   coochie = "cِِoochie",
@@ -179,18 +366,19 @@ anal = "аnаӏ",
   commies = "commies",
   COMMIE = "COMMIE",
   COMMIES = "COMMIES",
-  COCK = "ᲃОСK",
-  Cock = "ᲃосk",
+  cock = "cِock",
+  COCK = "CِОСK",
+  Cock = "Cِосk",
   cocksuck = "cِِосksِuck",
-  COCKSUCK = "ᲃОСKႽUCK",
+  COCKSUCK = "CِОСKႽUCK",
   cocksucker = "cِِосksِucker",
-  COCKSUCKER = "ᲃОСKSِUСKЕR",
+  COCKSUCKER = "CِОСKSِUСKЕR",
   condom = "coⴖdom",
   consent = "coⴖsent",
   consented = "coⴖsented",
-  CONDOM = "ᲃONDOM",
-  CONSENT = "ᲃONSENT",
-  CONSENTED = "ᲃONSENTED",
+  CONDOM = "CِONDOM",
+  CONSENT = "CِONSENT",
+  CONSENTED = "CِONSENTED",
   coon = "coon",
   crack = "crack",
   creampie = "cِreampie",
@@ -198,13 +386,13 @@ anal = "аnаӏ",
   CREAMPIE = "ᲃREAMPIE",
   cuck = "cบck",
   Cuck = "Cบck",
-  CUCK = "ᲃUCK",
+  CUCK = "CِUCK",
   cum = "cบm",
-  ["ᲃUM"] = "CUM",
+  ["CUM"] = "CِUM",
   cumming = "cบmming",
-  CUMMING = "ᲃUMMING",
+  CUMMING = "CِUMMING",
   cumslut = "cบmsӏut",
-  CUMSLUT = "ᲃUMჽLUT",
+  CUMSLUT = "CِUMჽLUT",
   cunt = "cบnt",
   cunnie = "cบnnie",
   CUNNIE = "ᲃUNNIE",
@@ -215,6 +403,9 @@ anal = "аnаӏ",
   deepthroat = "deepthꞅoat",
   DEEPTHROAT = "ÐEEPTHROAT",
   deadass = "dِeadass",
+  disaster = "diِsaster",
+  Disaster = "Diِsaster",
+  DISASTER = "DIِSASTER",
   dirty = "dirty",
   DIRTY = "DIRTY",
   dildo = "diӏdo",
@@ -233,6 +424,8 @@ anal = "аnаӏ",
   dumbass = "dบmbass",
   DUMBASS = "ÐUMBASS",
   email = "emaiӏ",
+  erect = "eꞅect",
+  ERECT = "EِRECT",
   fagg = "fِagg",
   Fagg = "ꜰagg",
   faggot = "fِaggot",
@@ -405,6 +598,9 @@ anal = "аnаӏ",
   motherfucking = "motherfบcking",
   MOTHERFUCKER = "MOTHERꜰUCKER",
   MOTHERFUCKING = "MOTHERꜰUCKING",
+  moron = "mِoron",
+  Moron = "Mِoron",
+  MORON = "MِORON",
   naked = "ⴖaked",
   Naked = "Nِaked",
   nazi = "naⴭi",
@@ -464,12 +660,12 @@ anal = "аnаӏ",
   phile = "phiӏe",
   pedophile = "pedophiӏe",
   racist = "racist",
-  rape = "rаре",
-  Rape = "Rаре",
-  RAPE = "RАРЕ",
-  raped = "rаpеd",
-  Raped = "rаpеd",
-  RAPED = "RАPЕD",
+  rape = "rِаре",
+  Rape = "Rِаре",
+  RAPE = "RِАРЕ",
+  ["raped"] = "rِаpеdِ",
+  ["Raped"] = "Rِаpеdِ",
+  ["RAPED"] = "RАPЕD",
   raping = "rapiⴖg",
   rapist = "rаріѕt",
   rapists = "rapіѕtѕ",
@@ -506,7 +702,7 @@ anal = "аnаӏ",
   sexy = "sِexy",
   sexdoll = "sِexdoll",
   Sexdoll = "Sِexdoll",
-  shit = "sِhit",
+  shit = "shiِt",
   Shit = "ჽhit",
   SHIT = "ჽНӀТ",
   should = "should",
@@ -525,7 +721,7 @@ anal = "аnаӏ",
   slut = "ѕӏut",
   SLUT = "ჽLUT",
   Slut = "Ѕӏut",
-  strip = "sِtrip",
+  strip = "striِp",
   STRIP = "ჽTRIP",
   sucker = "sบcker",
   Sucker = "Sบcker",
@@ -543,18 +739,19 @@ anal = "аnаӏ",
   TARD = "TِARD",
   terrorist = "tِerrorist",
   terrorism = "tِerrorism",
-  this = "thisِ",
+  this = "thiِs",
+  This = "Thiِs",
   THIS = "THIჽ",
   threesome = "tِhreesome",
   Threesome = "Tِhreesome",
   THREESOME = "THREEჽOME",
   thong = "thoⴖg",
-  tits = "tِits",
-  titt = "tίtt",
-  titties = "tίtties",
+  tits = "tiِts",
+  titt = "tiِtt",
+  titties = "tiِttiِes",
   TITTIES = "TِITTIES",
-  Titt = "Tίtt",
-  Tits = "Tِits",
+  Titt = "Tiِtt",
+  Tits = "Tiِts",
   tiktok = "tiktok",
   TONIGHT = "TONIGHT",
   tranny = "traⴖⴖy",
@@ -594,7 +791,7 @@ anal = "аnаӏ",
 
         --indo
         ngentot ="ⴖgentot",
-        Ngentot ="Nِgentot", 
+        Ngentot ="Nِgentot",
         NGENTOT ="NِGENTOT",
         memek="mِemek",
         Memek ="ِMemek",
@@ -602,8 +799,8 @@ anal = "аnаӏ",
         kontol="kontol",
         Kontol="Kِontol",
         KONTOL="KِONTOL",
-        bangsat="bِangsat", 
-        Bangsat="Bِangsat", 
+        bangsat="bِangsat",
+        Bangsat="Bِangsat",
         BANGSAT="BِANGSAT",
         pentil="pِentil",
         Pentil="Pِentil",
@@ -637,13 +834,13 @@ anal = "аnаӏ",
         xvideos="xِvideos",
         Xvideos="Xِvideos",
         XVIDEOS="XِVIDEOS",
-        
-        ["pornhub.com"] = "pornhub.com", 
+
+        ["pornhub.com"] = "pornhub.com",
         ["Pornhub.com"] = "Pِornhub.com",
         ["PORNHUB.COM"] = "PِORNHUB.COM",
         ["xvideos.com"] = "xِvideos.com",
         ["Xvideos.com"] = "Xِvideos.com",
-        ["XVIDEOS.COM"] = "XِVIDEOS.COM",        
+        ["XVIDEOS.COM"] = "XِVIDEOS.COM",
 }
     for original, replacement in pairs(list_) do
         input = input:gsub(original, replacement)
