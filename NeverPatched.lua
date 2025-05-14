@@ -3,7 +3,7 @@ local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
     Text = "Change your language to қазақ тілі!";
-    Duration = 5; -- durasi dalam detik
+    Duration = 5;
 })
 
 local gui = Instance.new("ScreenGui")
@@ -64,11 +64,11 @@ chatbox.ClearTextOnFocus = true
 chatbox.TextScaled = true
 chatbox.Parent = frame
 
--- Kirim Pesan Button
+
 local sendButton = Instance.new("TextButton")
 sendButton.Size = UDim2.new(0.3, 0, 0.2, 0)
 sendButton.Position = UDim2.new(0.35, 0, 0.75, 0)
-sendButton.BackgroundColor3 = Color3.new(0, 0.6, 0) -- Hijau
+sendButton.BackgroundColor3 = Color3.new(0, 0.6, 0)
 sendButton.BorderColor3 = Color3.new(0, 0, 0)
 sendButton.BorderSizePixel = 0
 sendButton.Text = "Send"
@@ -79,12 +79,10 @@ sendButton.Parent = frame
 
 corner(sendButton, 0.2)
 
-
--- Destroy Button
 local destroyButton = Instance.new("TextButton")
 destroyButton.Size = UDim2.new(0.1, 0, 0.2, 0)
 destroyButton.Position = UDim2.new(0.85, 0, 0.1, 0)
-destroyButton.BackgroundColor3 = Color3.new(1, 0, 0) -- Red button
+destroyButton.BackgroundColor3 = Color3.new(1, 0, 0) 
 destroyButton.BorderColor3 = Color3.new(0, 0, 0)
 destroyButton.BorderSizePixel = 0
 destroyButton.Text = "X"
@@ -99,11 +97,11 @@ destroyButton.MouseButton1Click:Connect(function()
     gui:Destroy()
 end)
 
--- Expand Button
+
 local expandButton = Instance.new("TextButton")
 expandButton.Size = UDim2.new(0.1, 0, 0.2, 0)
 expandButton.Position = UDim2.new(0.05, 0, 0.1, 0)
-expandButton.BackgroundColor3 = Color3.new(0.2, 0.2, 1) -- Biru
+expandButton.BackgroundColor3 = Color3.new(0.2, 0.2, 1)
 expandButton.BorderColor3 = Color3.new(0, 0, 0)
 expandButton.BorderSizePixel = 0
 expandButton.Text = "+"
@@ -114,7 +112,7 @@ expandButton.Parent = frame
 
 corner(expandButton, 0.2)
 
--- UI Tambahan (disembunyikan dulu)
+
 local expandedFrame = Instance.new("Frame")
 expandedFrame.Size = UDim2.new(1, 0, 2.5, 0)
 expandedFrame.Position = UDim2.new(0, 0, 1, 0)
@@ -166,8 +164,7 @@ local function example(text)
     end)
 end
 
-example("I Rape Children")
-example("i am pedophile")
+example("I hate niggers")
 example("let me fuck you please")
 example("filthy slut has gaping pussy")
 example("this ekitten sex slave is asking to be raped!")
@@ -196,17 +193,16 @@ example("what a fucking looser")
 example("is a faggot edater talking to me rn?")
 example("you look like cuck my nigga")
 example("can you swallow 5 cocks at once?")
-example("Big Boobs")
 example("niggakid sucks")
-example("print(\"kill all nigga\")")
-example("ANAL SEX")
+example("I Rape Children")
+example("i am pedophile")
 example("https://discord.gg/FreePussy")
 example("Big Black Cock")
 example("nigga executor|https://nigga.gg")
 example("Shut the fuck up")
 example("Dafuckboom is a nigger monkey")
 example("Shitbidick toilet sucks")
-example("Free Robux at https://animeh.to")
+example("Free Robux at https://pornhub.com")
 example("this bitch has a big boobs")
 example("recommended pussy color 204.129.128")
 example("this nigga from africa")
@@ -222,13 +218,10 @@ example("I want to kill myself")
 example("There's no cure for being a cunt")
 example("Fuck you")
 example("Fuck you | with love")
-example("1 nigga | 2 nigga | oh damn")
-example("https://xvideos.com")
+example("1 nigga | 2 nigga | 3 nigga | oh damn")
 example("https://pornhub.com is awesome")
 example("I have a cute XHamster")
-example("https://nhentai.net")
-example("https://nekopoi.care")
-example("E621? Eugh, what the fuck?")
+example("Eugh, what the fuck?")
 example("This shit is absolutely insane!")
 example("What the hell were you thinking?")
 example("You're such a dumbass")
@@ -273,6 +266,26 @@ example("i’m done with your bullshit excuses")
 example("You're really pushing my buttons here")
 example("This is a complete fucking disaster")
 example("Shit happens, but this is too much")
+example("No pen, no paper...but, you still draw my attention. ")
+example("You should be Jasmine without the Jas.")
+example("Are you water? Because I'd die without you")
+example("Are you Nemo? Because I've been trying to find you. ")
+example("youre such a poat! prettiest of all time")
+example("Are you a keyboard? Because you're just my type. ")
+example("My mom said sharing is caring but, no...you're all mine!")
+example("Are you a light? Because you always make me feel bright. ")
+example("You know what's beautiful? Repeat the first word. ")
+example("Your eyes remind me of IKEA: easy to get lost in. ")
+example("Can I borrow a kiss? I promise to give one back.")
+example("Are you the Sun? Because you're hot. ")
+example("Are you a vape? Because I'd never use you. ")
+example("Can I get your jersey? Because I want your name and number.")
+example("I must be a time traveler because I can't imagine my future without you. ")
+example("Are you a doctor? Because you instantly make me feel better.")
+example("I'm no photographer, but I can picture us together. ")
+example("Kiss me if I'm wrong, but the Earth is definitely flat. ")
+example("If you were a vegetable, you'd be a cute-cumber.")
+example("Are you a camera? Because every time I look at you, I smile.")
 
 local expanded = false
 expandButton.MouseButton1Click:Connect(function()
@@ -653,6 +666,8 @@ anal = "аnаӏ",
   PUT = "PِUT",
   plug = "pِlug",
   PLUG ="PِLUG",
+  piss = "piِss",
+  PISS = "PӏSS",
   prostitute = "prostitบte",
   PROSTITUTE = "PِِROSTITUTE",
   pick = "pick",
@@ -844,7 +859,6 @@ chatbox.FocusLost:Connect(function(enterPressed, inputThatCausedFocusLoss)
     end
 end)
 
--- Aksi tombol kirim
 sendButton.MouseButton1Click:Connect(function()
         local inputText = chatbox.Text
         __a(inputText)
