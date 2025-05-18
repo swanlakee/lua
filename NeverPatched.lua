@@ -26,9 +26,7 @@ frame.Active = true
 frame.BackgroundTransparency = 0.5
 frame.Draggable = true
 frame.Parent = gui
-
 corner(frame,0.1)
-
 
 local textlabel = Instance.new("TextLabel")
 textlabel.Size = UDim2.new(1, 0, 0.25, 0)
@@ -48,12 +46,12 @@ textlabel.Parent = frame
 local chatbox = Instance.new("TextBox")
 chatbox.Size = UDim2.new(0.9, 0, 0.3, 0)
 chatbox.Position = UDim2.new(0.05, 0, 0.4, 0)
-chatbox.BackgroundColor3 = Color3.new(0, 0, 0)
+chatbox.BackgroundColor3 = Color3.fromRGB(60,60,60)
 chatbox.BorderColor3 = Color3.new(0, 0, 0)
 chatbox.BorderSizePixel = 0
 chatbox.Text = ""
 chatbox.TextColor3 = Color3.new(1,1,1)
-chatbox.BackgroundTransparency = 0.1
+chatbox.BackgroundTransparency = 0.5
 chatbox.Font = "Fantasy"
 chatbox.TextSize = 14
 chatbox.TextScaled = true
@@ -63,7 +61,7 @@ chatbox.PlaceholderText = "Type text here..."
 chatbox.ClearTextOnFocus = true
 chatbox.TextScaled = true
 chatbox.Parent = frame
-
+corner(chatbox, 0.2)
 
 local sendButton = Instance.new("TextButton")
 sendButton.Size = UDim2.new(0.3, 0, 0.2, 0)
@@ -77,7 +75,6 @@ sendButton.TextColor3 = Color3.new(1, 1, 1)
 sendButton.Font = "Highway"
 sendButton.TextScaled = true
 sendButton.Parent = frame
-
 corner(sendButton, 0.2)
 
 local destroyButton = Instance.new("TextButton")
@@ -92,13 +89,11 @@ destroyButton.TextColor3 = Color3.new(1, 1, 1)
 destroyButton.Font = Enum.Font.SourceSansBold
 destroyButton.TextScaled = true
 destroyButton.Parent = frame
-
 corner(destroyButton, 0.2)
 
 destroyButton.MouseButton1Click:Connect(function()
     gui:Destroy()
 end)
-
 
 local expandButton = Instance.new("TextButton")
 expandButton.Size = UDim2.new(0.1, 0, 0.2, 0)
@@ -112,9 +107,7 @@ expandButton.TextColor3 = Color3.new(1, 1, 1)
 expandButton.Font = Enum.Font.SourceSansBold
 expandButton.TextScaled = true
 expandButton.Parent = frame
-
 corner(expandButton, 0.2)
-
 
 local expandedFrame = Instance.new("Frame")
 expandedFrame.Size = UDim2.new(1, 0, 2.5, 0)
@@ -161,7 +154,7 @@ local function example(text)
     textButton.TextColor3 = Color3.new(1, 1, 1)
     textButton.Font = "Fantasy"
     textButton.Parent = scroll
-
+    corner(textButton, 0.2)
     textButton.MouseButton1Click:Connect(function()
         local inputText = textButton.Text
         chatbox.Text = inputText
