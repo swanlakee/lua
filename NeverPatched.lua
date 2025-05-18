@@ -1,5 +1,4 @@
 local StarterGui = game:GetService("StarterGui")
-
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
     Text = "Change your language to Slovenski!";
@@ -17,7 +16,7 @@ local function corner(ui,value)
 end
 
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0.2, 0, 0.15, 0)
+frame.Size = UDim2.new(0.2, 0, 0.18, 0)
 frame.Position = UDim2.new(0.1, 0, 0.1, 0)
 frame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 frame.BorderColor3 = Color3.new(0, 0, 0)
@@ -110,7 +109,7 @@ expandButton.Parent = frame
 corner(expandButton, 0.2)
 
 local expandedFrame = Instance.new("Frame")
-expandedFrame.Size = UDim2.new(1, 0, 2.5, 0)
+expandedFrame.Size = UDim2.new(1, 0, 1.8, 0)
 expandedFrame.Position = UDim2.new(0, 0, 1, 0)
 expandedFrame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 expandedFrame.BorderSizePixel = 0
@@ -120,8 +119,8 @@ expandedFrame.Parent = frame
 corner(expandedFrame, 0.03)
 
 local scroll = Instance.new("ScrollingFrame")
-scroll.Size = UDim2.new(0.85, 0, 0.85, 0)
-scroll.Position = UDim2.new(0.08, 0, 0.09, 0)
+scroll.Size = UDim2.new(0.9, 0, 0.9, 0)
+scroll.Position = UDim2.new(0.05, 0, 0.05, 0)
 scroll.BackgroundColor3 = Color3.new(1, 1, 1)
 scroll.BorderColor3 = Color3.new(0, 0, 0)
 scroll.BorderSizePixel = 0
@@ -134,7 +133,7 @@ scroll.Parent = expandedFrame
 local list = Instance.new("UIListLayout")
 list.HorizontalAlignment = Enum.HorizontalAlignment.Center
 list.SortOrder = Enum.SortOrder.LayoutOrder
-list.Padding = UDim.new(0, 10)
+list.Padding = UDim.new(0, 4.5)
 list.Parent = scroll
 
 local buttonCount = 0
@@ -142,7 +141,7 @@ local function example(text)
     buttonCount = buttonCount + 1
 
     local textButton = Instance.new("TextButton")
-    textButton.Size = UDim2.new(1, 0, 0, 18)
+    textButton.Size = UDim2.new(1, 0, 0, 20)
     textButton.Position = UDim2.new(0, 0, 0, (buttonCount - 1) * 45)
     textButton.BackgroundColor3 = Color3.fromRGB(60,60,60)
     textButton.BorderSizePixel = 0
@@ -161,6 +160,19 @@ local function example(text)
         __a(inputText)
     end)
 end
+
+local expanded = false
+expandButton.MouseButton1Click:Connect(function()
+    expanded = not expanded
+    expandedFrame.Visible = expanded
+    if expanded then
+        expandButton.Text = "-"
+        frame.Size = UDim2.new(0.2, 0, 0.18, 0) 
+    else
+        expandButton.Text = "+"
+        frame.Size = UDim2.new(0.2, 0, 0.18, 0) 
+    end
+end)
 
 example("holy FUCK them titties are HUGE")
 example("anyone wanna have hardcode sex?")
@@ -311,19 +323,6 @@ example("I'm no photographer, but I can picture us together. ")
 example("Kiss me if I'm wrong, but the Earth is definitely flat. ")
 example("If you were a vegetable, you'd be a cute-cumber.")
 example("Are you a camera? Because every time I look at you, I smile.")
-
-local expanded = false
-expandButton.MouseButton1Click:Connect(function()
-    expanded = not expanded
-    expandedFrame.Visible = expanded
-    if expanded then
-        expandButton.Text = "-"
-        frame.Size = UDim2.new(0.2, 0, 0.15, 0) 
-    else
-        expandButton.Text = "+"
-        frame.Size = UDim2.new(0.2, 0, 0.15, 0) 
-    end
-end)
 
 local function __a(input)
 local list_ = {
@@ -728,7 +727,6 @@ local list_ = {
   Youtube = "Youtบbe",
   yourself = "yourseIf",
   Yourself = "YourseIf",
-
         ngentot ="ⴖgentot",
         Ngentot ="Nِgentot",
         NGENTOT ="NِGENTOT",
