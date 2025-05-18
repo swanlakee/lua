@@ -52,13 +52,12 @@ chatbox.Text = ""
 chatbox.TextColor3 = Color3.new(1,1,1)
 chatbox.BackgroundTransparency = 0.5
 chatbox.Font = "Fantasy"
-chatbox.TextSize = 14
+chatbox.TextSize = 17
 chatbox.TextScaled = true
 chatbox.TextWrapped = true
 chatbox.TextXAlignment = "Center"
 chatbox.PlaceholderText = "Type text here..."
 chatbox.ClearTextOnFocus = true
-chatbox.TextScaled = true
 chatbox.Parent = frame
 corner(chatbox, 0.2)
 
