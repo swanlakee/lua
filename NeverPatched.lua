@@ -202,6 +202,18 @@ example("this nigga has a roblox girlfriend")
 example("have you heard of getting pussy before?")
 example("what a fucking looser")
 example("is a faggot edater talking to me rn?")
+example("u look like coal nigga shut up")
+example("kill all jews hitler on top")
+example("I don't talk to overweight bitches, sorry...")
+example("when did i say i give a fuck?")
+example("shut the fuck up random ass imbecile")
+example("why is this broke ass nigga talking to me??")
+example("pipe your fatass down bitch")
+example("kill yourself e-whore")
+example("yeah yeah nigga keep bouncing on my dick")
+example("shut that shit up pussy")
+example("go fuck yourself sex stripper")
+example("i don't remember ordering a retarded whore?")
 example("you look like cuck my nigga")
 example("nigga acting like a fucking cat")
 example("who let this faggot furry here??")
@@ -430,8 +442,8 @@ local list_ = {
   dildo = "diӏdo",
   DILDO = "ÐILDO",
   DICK = "ÐICK",
-  di = "diِ",
-  Di = "Diِ",
+  dick = "diِck",
+  Dick = "Diِck",
   doggy = "Ðoggy",
   doggy = "dِoggy",
   DOGGY = "ÐOGGY",
@@ -486,10 +498,10 @@ local list_ = {
   HENTAI = "HِENTAI",
   Heil = "Heiӏ",
   HEIL = "HEIL",
-  hitler = "hitӏer",
-  Hitler = "Hitӏer",
+  hitler = "hitӏeꞅ",
+  Hitler = "Hitӏeꞅ",
   HEIL = "HِEIL",
-  HITLER = "HِITLER",
+  HITLER = "HlTLER",
   HOE = "HOE",
   hoe = "hoe",
   holy = "hoӏy",
@@ -505,13 +517,12 @@ local list_ = {
   INSTAGRAM = "ӏNჽTAGRAM",
   isis = "iธiธ",
   ISIS = "ӏჽӏჽ",
-  incest = "inceธt",
-  Incest = "ӏnceธt",
+  incest = "iِทcest",
+  Incest = "lnceธt",
   INCEST = "ӏNCEჽT",
-  INE = "ӏNE",
-  ING = "ӏNG",
   jungle = "jungӏe",
-  jew = "jِew",
+  jew = "jِewِ",
+  jews = "jِewِธ",
   jerk = "jeꞅk",
   Jerk = "jeꞅk",
   JERK = "JERϏ",
@@ -724,33 +735,34 @@ local list_ = {
   youtube = "yِoutบbe",
   YOUTUBE = "YِOUTUBE",
   Youtube = "Youtบbe",
-  yourself = "yourseIf",
-  Yourself = "YourseIf",
-        ngentot ="ⴖgentot",
-        Ngentot ="Nِgentot",
-        NGENTOT ="NِGENTOT",
-        memek="memek",
-        Memek ="Memek",
-        MEMEK = "MِEMEK",
-        kontol="kontoI",
-        Kontol="KontoI",
-        KONTOL="KِONTOL",
-        bangsat="baⴖgsat",
-        Bangsat="Baⴖgsat",
-        BANGSAT="BANGჽAT",
-        lonte = "Ionte",
-        Lonte = "Lonte",
-        LONTE = "LONTE",
-        pentil="pentiI",
-        Pentil="PentiI",
-        PENTIL="PENTIL",
-        ["e621"]="eِ621",
-        ["E621"]="Eِ621",
-        ["r34"]="ꞅ34",
-        ["R34"]="Rِ34",
-        ["rule34"]="ruIe34",
-        ["Rule34"]="RuIe34",
-        ["RULE34"]="RِULE34",
+  yourself = "youꞅseIf",
+  Yourself = "YouꞅseIf",
+  
+  ngentot ="ⴖgentot",
+  Ngentot ="Nِgentot",
+  NGENTOT ="NِGENTOT",
+  memek="memek",
+  Memek ="Memek",
+  MEMEK = "MِEMEK",
+  kontol="kontoI",
+  Kontol="KontoI",
+  KONTOL="KِONTOL",
+  bangsat="baⴖgsat",
+  Bangsat="Baⴖgsat",
+  BANGSAT="BANGჽAT",
+  lonte = "Ionte",
+  Lonte = "Lonte",
+  LONTE = "LONTE",
+  pentil="pentiI",
+  Pentil="PentiI",
+  PENTIL="PENTIL",
+  ["e621"]="eِ621",
+  ["E621"]="Eِ621",
+  ["r34"]="ꞅ34",
+  ["R34"]="Rِ34",
+  ["rule34"]="ruIe34",
+  ["Rule34"]="RuIe34",
+  ["RULE34"]="RِULE34",
 }
     for original, replacement in pairs(list_) do
         input = input:gsub(original, replacement)
