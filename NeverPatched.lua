@@ -207,6 +207,7 @@ example("kill all jews hitler on top")
 example("I don't talk to overweight bitches, sorry...")
 example("when did i say i give a fuck?")
 example("shut the fuck up random ass imbecile")
+example("i don't speak nigger languages")
 example("why is this broke ass nigga talking to me??")
 example("pipe your fatass down bitch")
 example("kill yourself e-whore")
@@ -521,8 +522,9 @@ local list_ = {
   Incest = "lnceธt",
   INCEST = "ӏNCEჽT",
   jungle = "jungӏe",
-  jew = "jِewِ",
-  jews = "jِewِธ",
+  jews = "jewธ",
+  Jews = "Jewธ",
+  JEWS = "JEWჽ",
   jerk = "jeꞅk",
   Jerk = "jeꞅk",
   JERK = "JERϏ",
@@ -533,6 +535,7 @@ local list_ = {
   kkk = "kِkِkِ",
   KKK = "ϏϏϏ",
   kys = "kyِs",
+  KYS = "KYჽ",
   kill = "kiӏӏ",
   Kill = "ᴋiӏӏ",
   KILL = "KӏLL",
@@ -604,7 +607,7 @@ local list_ = {
   niglet = "nigӏet",
   nsfw = "nธfw",
   Nsfw = "Nธfw",
-  NSFW = "NِSFW",
+  NSFW = "NჽFW",
   nude = "ⴖude",
   Nude = "Nِude",
   NUDE = "NِUDE",
