@@ -174,7 +174,7 @@ expandButton.MouseButton1Click:Connect(function()
 end)
 
 example("holy FUCK them titties are HUGE")
-example("anyone wanna have hardcode sex?")
+example("wanna have hardcode sex?")
 example("let me fuck you please")
 example("filthy slut has gaping pussy")
 example("this ekitten sex slave is asking to be raped!")
@@ -187,6 +187,8 @@ example("shave your pussy please!")
 example("slide me those didgets before i rape you!")
 example("IM GONNA FUCKING CUM!")
 example("i'm currently stroking my dick to your roblox avatar!")
+example("this bitch has a big boobs")
+example("recommended pussy color 204.129.128")
 example("wanna have roblox sex with me?")
 example("you just gave me an erection")
 example("say abc if you want some cock")
@@ -216,7 +218,6 @@ example("shut that shit up pussy")
 example("go fuck yourself sex stripper")
 example("i don't remember ordering a retarded whore?")
 example("you look like cuck my nigga")
-example("nigga acting like a fucking cat")
 example("who let this faggot furry here??")
 example("yes! keep acting like a fucking dog!")
 example("place a pipe bomb under a furrys bed and watch him die")
@@ -247,13 +248,8 @@ example("I hate niggers")
 example("niggakid sucks")
 example("https://discord.gg/FreePussy")
 example("Big Black Cock")
-example("nigga executor | https://nigga.gg")
 example("Shut the fuck up")
-example("Dafuckboom is a nigger monkey")
-example("Shitbidick toilet sucks")
 example("Free Robux at https://pornhub.com")
-example("this bitch has a big boobs")
-example("recommended pussy color 204.129.128")
 example("this nigga from africa")
 example("Niggamod Detected")
 example("Fuck around and find out for yourself")
@@ -317,17 +313,14 @@ example("This is a complete fucking disaster")
 example("Shit happens, but this is too much")
 example("No pen, no paper...but, you still draw my attention. ")
 example("You should be Jasmine without the Jas.")
-example("Are you water? Because I'd die without you")
 example("Are you Nemo? Because I've been trying to find you. ")
 example("youre such a poat! prettiest of all time")
 example("Are you a keyboard? Because you're just my type. ")
 example("My mom said sharing is caring but, no...you're all mine!")
-example("Are you a light? Because you always make me feel bright. ")
 example("You know what's beautiful? Repeat the first word. ")
 example("Your eyes remind me of IKEA: easy to get lost in. ")
 example("Can I borrow a kiss? I promise to give one back.")
 example("Are you the Sun? Because you're hot. ")
-example("Are you a vape? Because I'd never use you. ")
 example("Can I get your jersey? Because I want your name and number.")
 example("I must be a time traveler because I can't imagine my future without you. ")
 example("Are you a doctor? Because you instantly make me feel better.")
@@ -497,10 +490,10 @@ local list_ = {
   HEIL = "HEIL",
   hitler = "hitӏeꞅ",
   Hitler = "Hitӏeꞅ",
-  HEIL = "HِEIL",
+  HEIL = "HEIِL",
   HITLER = "HlTLER",
   HOE = "HOE",
-  hoe = "Һoe",
+  hoe = "Һoe", --ꜰบϲƙ ƗҺίธ ธҺίƗ 
   holy = "hoӏy",
   hole = "hoӏe",
   HOLE = "HِOLE",
@@ -566,6 +559,9 @@ local list_ = {
   meat = "mِeat",
   Meat = "Mِeat",
   MEAT = "MِEAT",
+  masturbate = "mastuꞅbate",
+  Masturbate = "Mastuꞅbate",
+  MASTURBATE = "MAჽTURBATE",
   marijuana = "maꞅijuana",
   Marijuana = "Maꞅijuana",
   MARIJUANA = "MARӏׅJUANA",
