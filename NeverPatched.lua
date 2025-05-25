@@ -160,6 +160,23 @@ local function example(text)
     end)
 end
 
+local function title(text)
+    buttonCount = buttonCount + 1
+
+    local titleButton = Instance.new("TextButton")
+    titleButton.Size = UDim2.new(1, 0, 0, 20)
+    titleButton.Position = UDim2.new(0, 0, 0, (buttonCount - 1) * 45)
+    titleButton.BorderSizePixel = 0
+    titleButton.BackgroundTransparency = 1
+    titleButton.Text = text
+    titleButton.TextScaled = true
+    titleButton.TextWrapped = true
+    titleButton.TextSize = 10
+    titleButton.TextColor3 = Color3.new(1, 1, 1)
+    titleButton.Font = "Fantasy"
+    titleButton.Parent = scroll
+end
+
 local expanded = false
 expandButton.MouseButton1Click:Connect(function()
     expanded = not expanded
@@ -173,6 +190,7 @@ expandButton.MouseButton1Click:Connect(function()
     end
 end)
 
+title("Sexualize")
 example("holy FUCK them titties are HUGE")
 example("wanna have hardcode sex?")
 example("let me fuck you please")
@@ -200,79 +218,51 @@ example("what color is your pussy?")
 example("it's not rape if you say surprise!")
 example("can we make porn film together?")
 example("can you swallow 5 cocks at once?")
-example("this nigga has a roblox girlfriend")
-example("have you heard of getting pussy before?")
-example("what a fucking looser")
-example("is a faggot edater talking to me rn?")
+example("https://discord.gg/FreePussy")
+
+
+
+title("Racist")
+example("this nigga from africa")
+example("Niggamod Detected")
 example("u look like coal nigga shut up")
 example("kill all jews hitler on top")
-example("I don't talk to overweight bitches, sorry...")
-example("when did i say i give a fuck?")
-example("shut the fuck up random ass imbecile")
+example("this nigga has a roblox girlfriend")
 example("i don't speak nigger languages")
+example("I hate niggers")
+example("niggakid sucks")
+example("1 nigga | 2 nigga | oh damn")
 example("why is this broke ass nigga talking to me??")
+example("yeah yeah nigga keep bouncing on my dick")
+example("you look like cuck my nigga")
+
+
+
+title("Insane")
+example("I don't talk to overweight bitches, sorry...")
 example("pipe your fatass down bitch")
 example("kill yourself e-whore")
-example("yeah yeah nigga keep bouncing on my dick")
 example("shut that shit up pussy")
 example("go fuck yourself sex stripper")
 example("i don't remember ordering a retarded whore?")
-example("you look like cuck my nigga")
-example("who let this faggot furry here??")
-example("yes! keep acting like a fucking dog!")
-example("place a pipe bomb under a furrys bed and watch him die")
-example("who let this faggot furry here??")
-example("nigga acting like a fucking cat")
-example("your not a fucking dog nigga get off the ground")
-example("'im a trans gay furryass' nigga Imao")
-example("this ugly faggot really spent money to look like this in roblox!")
-example("i don't care faggot shut the fuck up")
-example("cut deeper you stupid faggot")
-example("every faggot should eat my shit NOW!!")
-example("shoot a faggot in the head with a 12 gauge")
-example("gay fuck shoot your brains out")
-example("someone feed this twink ass nigga fent")
-example("this little queer is a classic example of incest")
-example("deepthroat a shotgun gay boy")
-example("somebody needs to give this faggot fent")
-example("fuck up faggot go swallow a glock 19")
-example("faggot shove a shotgun in your mouth and pull the trigger")
-example("every LGBT fag should get brutally murdered")
-example("oh no.. some random faggot is mad...")
-example("i dont want to hear u faggot shut up")
-example("drown a faggot in the river for 5 robux")
-example("this faggot has a micro penis!!")
-example("pipe ur gay ass down nigga holy shit")
-example("im gonna rape this furry faggot if he doesnt shut up")
-example("I hate niggers")
-example("niggakid sucks")
-example("https://discord.gg/FreePussy")
-example("Big Black Cock")
+example("have you heard of getting pussy before?")
+example("when did i say i give a fuck?")
+example("shut the fuck up random ass imbecile")
 example("Shut the fuck up")
-example("Free Robux at https://pornhub.com")
-example("this nigga from africa")
-example("Niggamod Detected")
+example("what a fucking looser")
 example("Fuck around and find out for yourself")
-example("Want some free Robux? | Go to Xvideos.com for free Robux")
-example("I'm tired of all this shit")
-example("That was cuntacular")
 example("Stop being a cunt")
-example("Fuck this shit")
-example("Go fuck yourself")
-example("I want to kill myself")
 example("There's no cure for being a cunt")
 example("Fuck you")
-example("Fuck you | with love")
-example("1 nigga | 2 nigga | oh damn")
-example("https://pornhub.com is awesome")
-example("I have a cute XHamster")
+example("Get your head out of your ass")
+example("You're such a dumbass")
+example("Fuck this shit")
+example("Go fuck yourself")
 example("Eugh, what the fuck?")
 example("This shit is absolutely insane!")
 example("What the hell were you thinking?")
-example("You're such a dumbass")
 example("i can't believe this bullshit")
 example("This is a load of crap")
-example("Get your head out of your ass")
 example("You're driving me fucking crazy")
 example("Quit acting like a little bitch")
 example("This is some serious bullshit right here")
@@ -311,6 +301,50 @@ example("i’m done with your bullshit excuses")
 example("You're really pushing my buttons here")
 example("This is a complete fucking disaster")
 example("Shit happens, but this is too much")
+example("That was cuntacular")
+
+
+title("homophobic")
+example("is a faggot edater talking to me rn?")
+example("who let this faggot furry here??")
+example("yes! keep acting like a fucking dog!")
+example("place a pipe bomb under a furrys bed and watch him die")
+example("who let this faggot furry here??")
+example("faggot acting like a fucking cat")
+example("your not a fucking dog nigga get off the ground")
+example("'im a trans gay furryass' nigga Imao")
+example("this ugly faggot really spent money to look like this in roblox!")
+example("i don't care faggot shut the fuck up")
+example("cut deeper you stupid faggot")
+example("every faggot should eat my shit NOW!!")
+example("shoot a faggot in the head with a 12 gauge")
+example("gay fuck shoot your brains out")
+example("someone feed this twink ass nigga fent")
+example("this little queer is a classic example of incest")
+example("deepthroat a shotgun gay boy")
+example("somebody needs to give this faggot fent")
+example("fuck up faggot go swallow a glock 19")
+example("faggot shove a shotgun in your mouth and pull the trigger")
+example("every LGBT fag should get brutally murdered")
+example("oh no.. some random faggot is mad...")
+example("i dont want to hear u faggot shut up")
+example("drown a faggot in the river for 5 robux")
+example("this faggot has a micro penis!!")
+example("pipe ur gay ass down nigga holy shit")
+example("im gonna rape this furry faggot if he doesnt shut up")
+
+
+
+title("Sentences")
+example("Want some free Robux? | Go to Xvideos.com for free Robux")
+example("I'm tired of all this shit")
+example("I want to kill myself")
+example("Free Robux at https://pornhub.com")
+example("https://pornhub.com is awesome")
+example("I have a cute XHamster")
+
+
+title("Rizz")
 example("No pen, no paper...but, you still draw my attention. ")
 example("You should be Jasmine without the Jas.")
 example("Are you Nemo? Because I've been trying to find you. ")
@@ -423,6 +457,9 @@ local list_ = {
   cunnie = "cบnnie",
   CUNNIE = "ϹUNNIE",
   CUNT = "CِUNT",
+  dat = "dลt",
+  Dat = "Dลt",
+  DAT = "DِAT",
   deepthroat = "deepthꞅoat",
   DEEPTHROAT = "ÐEEPTHROAT",
   disaster = "disasteꞅ",
