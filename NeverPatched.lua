@@ -12,7 +12,7 @@ StarterGui:SetCore("SendNotification", {
 })
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "NeverPatched"
+gui.Name = "NeverG"
 gui.Parent = game.CoreGui
 
 local function corner(ui,value)
