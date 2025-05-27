@@ -1,3 +1,9 @@
+--[[
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/swanlakee/lua/refs/heads/main/NeverPatched.lua"))()
+]]
+
+
+
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
@@ -6,7 +12,7 @@ StarterGui:SetCore("SendNotification", {
 })
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "NeverG"
+gui.Name = "NeverPatched"
 gui.Parent = game.CoreGui
 
 local function corner(ui,value)
@@ -223,6 +229,9 @@ example("https://discord.gg/FreePussy")
 
 
 title("Racist")
+example("Who Let The Black Slaves Escape 😭")
+example("do you know what nigga n mean?")
+example("sybau negro💔🥀")
 example("this nigga from africa")
 example("Niggamod Detected")
 example("u look like coal nigga shut up")
@@ -239,6 +248,9 @@ example("you look like cuck my nigga")
 
 
 title("Insane")
+example("You have no bitches fr bro?")
+example("No Way This Shit Is Actually Working")
+example("Bro, fuck Yourself. not me")
 example("I don't talk to overweight bitches, sorry...")
 example("pipe your fatass down bitch")
 example("kill yourself e-whore")
@@ -304,6 +316,7 @@ example("Shit happens, but this is too much")
 example("That was cuntacular")
 
 
+
 title("homophobic")
 example("is a faggot edater talking to me rn?")
 example("who let this faggot furry here??")
@@ -332,6 +345,8 @@ example("drown a faggot in the river for 5 robux")
 example("this faggot has a micro penis!!")
 example("pipe ur gay ass down nigga holy shit")
 example("im gonna rape this furry faggot if he doesnt shut up")
+example("ahah. you know what Funny?, Lgbbq")
+example("MegaFurryGaySex Was A Real Thing?")
 
 
 
@@ -342,6 +357,14 @@ example("I want to kill myself")
 example("Free Robux at https://pornhub.com")
 example("https://pornhub.com is awesome")
 example("I have a cute XHamster")
+example("awh.. damn. 💀",)
+example("No Way This Shit Is Actually Working")
+example("Just Testing My Shits Rn")
+example("is that a huge penis on the sky?")
+example("What the fuck, did i just saw?")
+example("Alright.. How About Porn?")
+example("selling both of my kidneys for only 2 $")
+
 
 
 title("Rizz")
