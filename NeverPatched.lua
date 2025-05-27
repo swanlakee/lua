@@ -1,3 +1,7 @@
+--[[
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/swanlakee/lua/refs/heads/main/NeverPatched.lua"))()
+]]
+
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
@@ -6,7 +10,7 @@ StarterGui:SetCore("SendNotification", {
 })
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "NeverG"
+gui.Name = "NeverPatched"
 gui.Parent = game.CoreGui
 
 local function corner(ui,value)
@@ -351,7 +355,7 @@ example("I want to kill myself")
 example("Free Robux at https://pornhub.com")
 example("https://pornhub.com is awesome")
 example("I have a cute XHamster")
-example("awh.. damn. 💀",)
+example("awh.. damn. 💀")
 example("No Way This Shit Is Actually Working")
 example("Just Testing My Shits Rn")
 example("is that a huge penis on the sky?")
