@@ -1,9 +1,3 @@
---[[
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/swanlakee/lua/refs/heads/main/NeverPatched.lua"))()
-]]
-
-
-
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
