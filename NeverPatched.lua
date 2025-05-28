@@ -1,7 +1,3 @@
---[[
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/swanlakee/lua/refs/heads/main/NeverPatched.lua"))()
-]]
-
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
@@ -247,7 +243,6 @@ example("you look like cuck my nigga")
 
 title("---INSANE---")
 example("You have no bitches fr bro?")
-example("No Way This Shit Is Actually Working")
 example("Bro, fuck Yourself. not me")
 example("I don't talk to overweight bitches, sorry...")
 example("pipe your fatass down bitch")
@@ -787,8 +782,8 @@ local list_ = {
   twerk = "tweꞅk",
   Twerk = "Tweꞅk",
   TWERK = "TWERҠ",
-  vagina = "vagiⴖa",
-  Vagina = "Vagiⴖa",
+  vagina = "vagίna",
+  Vagina = "Vagίna",
   VAGINA = "VِAGIِNA",
   vodka = "vِodka",
   Vodka = "Vِodka",
