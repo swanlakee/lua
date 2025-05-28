@@ -16,7 +16,7 @@ local function corner(ui,value)
 end
 
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0.2, 0, 0.15, 0)
+frame.Size = UDim2.new(0.2, 0, 0.18, 0)
 frame.Position = UDim2.new(0.1, 0, 0.1, 0)
 frame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 frame.BorderColor3 = Color3.new(0, 0, 0)
@@ -52,7 +52,7 @@ chatbox.Text = ""
 chatbox.TextColor3 = Color3.new(1,1,1)
 chatbox.BackgroundTransparency = 0.5
 chatbox.Font = "Fantasy"
-chatbox.TextSize = 14
+chatbox.TextSize = 17
 chatbox.TextScaled = true
 chatbox.TextWrapped = true
 chatbox.TextXAlignment = "Center"
@@ -108,7 +108,7 @@ expandButton.Parent = frame
 corner(expandButton, 0.2)
 
 local expandedFrame = Instance.new("Frame")
-expandedFrame.Size = UDim2.new(1, 0, 2.15, 0)
+expandedFrame.Size = UDim2.new(1, 0, 2.3, 0)
 expandedFrame.Position = UDim2.new(0, 0, 1, 0)
 expandedFrame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 expandedFrame.BorderSizePixel = 0
@@ -183,17 +183,17 @@ expandButton.MouseButton1Click:Connect(function()
     expandedFrame.Visible = expanded
     if expanded then
         expandButton.Text = "-"
-        frame.Size = UDim2.new(0.2, 0, 0.15, 0) 
+        frame.Size = UDim2.new(0.2, 0, 0.18, 0) 
     else
         expandButton.Text = "+"
-        frame.Size = UDim2.new(0.2, 0, 0.15, 0) 
+        frame.Size = UDim2.new(0.2, 0, 0.18, 0) 
     end
 end)
 
 title("---SEXUALIZE---")
 example("holy FUCK them titties are HUGE 😲")
 example("wanna have hardcore sex?")
-example("let me fuck you please🥺")
+example("let me fuck you please 🥺")
 example("filthy slut has gaping pussy")
 example("this ekitten sex slave is asking to be raped!")
 example("say abc to get raped!")
@@ -203,12 +203,12 @@ example("why does your pussy smell like tuna?")
 example("how big are your boobs?")
 example("shave your pussy please!")
 example("slide me those didgets before i rape you!")
-example("IM GONNA FUCKING CUM!💦")
-example("i'm currently stroking my dick to your roblox avatar!🥵")
-example("this bitch has a big boobs🍑")
+example("IM GONNA FUCKING CUM! 💦")
+example("i'm currently stroking my dick to your roblox avatar! 🥵")
+example("this bitch has a big boobs 🍑")
 example("recommended pussy color 204.129.128")
 example("wanna have roblox sex with me?")
-example("you just gave me an erection🤤")
+example("you just gave me an erection 🤤")
 example("say abc if you want some cock")
 example("first person to move get raped!")
 example("IAM IN URGENT NEED ROBLOX SEX")
@@ -223,7 +223,7 @@ example("https://discord.gg/FreePussy")
 
 
 title("---RACIST---")
-example("Who Let The Black Slaves Escape 😭")
+example("Who Let This Black Slaves Escape 😭")
 example("do you know what nigga n mean?")
 example("sybau negro💔🥀")
 example("this nigga from africa")
@@ -493,10 +493,7 @@ local list_ = {
   CUNT = "CِUNT",
   cunnie = "cบnnie",
   Cunnie = "Cบnnie",
-  CUNNIE = "ϹUNNIE",
-  dat = "dลt",
-  Dat = "Dลt",
-  DAT = "DِAT",
+  CUNNIE = "ϹUNNIE", 
   deepthroat = "deepthꞅoat",
   Deepthroat = "Deepthꞅoat",
   DEEPTHROAT = "ÐEEPTHROAT",
@@ -770,9 +767,9 @@ local list_ = {
   tiktok = "tίktok",
   Tiktok = "Tίktok",
   TIKTOK = "TIҠTOҠ",
-  tran = "tꞅann",
-  tran = "Tꞅann",
-  TRAN = "TِRANN",
+  trann = "tꞅann",
+  trann = "Tꞅann",
+  TRANN = "TِRANN",
   twat = "tِwat",
   Twat = "Tِwat",
   TWAT = "TِWAT",
