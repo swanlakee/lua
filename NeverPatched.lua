@@ -1,3 +1,7 @@
+--[[
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/swanlakee/lua/refs/heads/main/NeverPatched.lua"))()
+]]
+
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
@@ -743,6 +747,9 @@ local list_ = {
   strip = "stꞅip",
   Strip = "Stꞅip",
   STRIP = "ჽTRIP",
+  stupid = "stupiِd",
+  Stupid = "Stupiِd",
+  STUPID = "STUPIِD",
   suck = "sบck",
   Suck = "Sบck",
   SUCK = "SUCҠ",
