@@ -108,7 +108,7 @@ expandButton.Parent = frame
 corner(expandButton, 0.2)
 
 local expandedFrame = Instance.new("Frame")
-expandedFrame.Size = UDim2.new(1, 0, 2.3, 0)
+expandedFrame.Size = UDim2.new(1, 0, 1.8, 0)
 expandedFrame.Position = UDim2.new(0, 0, 1, 0)
 expandedFrame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 expandedFrame.BorderSizePixel = 0
@@ -190,7 +190,7 @@ expandButton.MouseButton1Click:Connect(function()
     end
 end)
 
-title("---SEXUALIZE---")
+title("---SEXUAL---")
 example("holy FUCK them titties are HUGE 😲")
 example("wanna have hardcore sex?")
 example("let me fuck you please 🥺")
