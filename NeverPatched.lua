@@ -1,12 +1,8 @@
---[[
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/swanlakee/lua/refs/heads/main/NeverPatched.lua"))()
-]]
-
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "Warning";
-    Text = "Change your language to Slovenski!";
-    Duration = 5;
+    Text = "Change your language to Қазақ Тілі";
+    Duration = 10;
 })
 
 local gui = Instance.new("ScreenGui")
@@ -20,7 +16,7 @@ local function corner(ui,value)
 end
 
 local frame = Instance.new("Frame")
-frame.Size = UDim2.new(0.2, 0, 0.18, 0)
+frame.Size = UDim2.new(0.2, 0, 0.15, 0)
 frame.Position = UDim2.new(0.1, 0, 0.1, 0)
 frame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 frame.BorderColor3 = Color3.new(0, 0, 0)
@@ -56,7 +52,7 @@ chatbox.Text = ""
 chatbox.TextColor3 = Color3.new(1,1,1)
 chatbox.BackgroundTransparency = 0.5
 chatbox.Font = "Fantasy"
-chatbox.TextSize = 17
+chatbox.TextSize = 14
 chatbox.TextScaled = true
 chatbox.TextWrapped = true
 chatbox.TextXAlignment = "Center"
@@ -112,7 +108,7 @@ expandButton.Parent = frame
 corner(expandButton, 0.2)
 
 local expandedFrame = Instance.new("Frame")
-expandedFrame.Size = UDim2.new(1, 0, 1.8, 0)
+expandedFrame.Size = UDim2.new(1, 0, 2.15, 0)
 expandedFrame.Position = UDim2.new(0, 0, 1, 0)
 expandedFrame.BackgroundColor3 = Color3.new(0.15,0.15,0.15)
 expandedFrame.BorderSizePixel = 0
@@ -187,17 +183,17 @@ expandButton.MouseButton1Click:Connect(function()
     expandedFrame.Visible = expanded
     if expanded then
         expandButton.Text = "-"
-        frame.Size = UDim2.new(0.2, 0, 0.18, 0) 
+        frame.Size = UDim2.new(0.2, 0, 0.15, 0) 
     else
         expandButton.Text = "+"
-        frame.Size = UDim2.new(0.2, 0, 0.18, 0) 
+        frame.Size = UDim2.new(0.2, 0, 0.15, 0) 
     end
 end)
 
-title("Sexualize")
-example("holy FUCK them titties are HUGE")
-example("wanna have hardcode sex?")
-example("let me fuck you please")
+title("---SEXUALIZE---")
+example("holy FUCK them titties are HUGE 🍑")
+example("wanna have hardcode sex?🥵💦")
+example("let me fuck you please🥺")
 example("filthy slut has gaping pussy")
 example("this ekitten sex slave is asking to be raped!")
 example("say abc to get raped!")
@@ -207,17 +203,17 @@ example("why does your pussy smell like tuna?")
 example("how big are your boobs?")
 example("shave your pussy please!")
 example("slide me those didgets before i rape you!")
-example("IM GONNA FUCKING CUM!")
-example("i'm currently stroking my dick to your roblox avatar!")
-example("this bitch has a big boobs")
+example("IM GONNA FUCKING CUM!💦")
+example("i'm currently stroking my dick to your roblox avatar!🥵")
+example("this bitch has a big boobs🍑")
 example("recommended pussy color 204.129.128")
 example("wanna have roblox sex with me?")
-example("you just gave me an erection")
+example("you just gave me an erection🤤")
 example("say abc if you want some cock")
 example("first person to move get raped!")
 example("IAM IN URGENT NEED ROBLOX SEX")
 example("stop jerking off to roblox porn dude")
-example("selling a sex slave next to me!")
+example("selling a sex slave next to me!👉")
 example("what color is your pussy?")
 example("it's not rape if you say surprise!")
 example("can we make porn film together?")
@@ -226,7 +222,7 @@ example("https://discord.gg/FreePussy")
 
 
 
-title("Racist")
+title("---RACIST---")
 example("Who Let The Black Slaves Escape 😭")
 example("do you know what nigga n mean?")
 example("sybau negro💔🥀")
@@ -245,7 +241,7 @@ example("you look like cuck my nigga")
 
 
 
-title("Insane")
+title("---INSANE---")
 example("You have no bitches fr bro?")
 example("No Way This Shit Is Actually Working")
 example("Bro, fuck Yourself. not me")
@@ -315,7 +311,7 @@ example("That was cuntacular")
 
 
 
-title("homophobic")
+title("---HOMOPHOBIC---")
 example("is a faggot edater talking to me rn?")
 example("who let this faggot furry here??")
 example("yes! keep acting like a fucking dog!")
@@ -348,7 +344,7 @@ example("MegaFurryGaySex Was A Real Thing?")
 
 
 
-title("Sentences")
+title("---SENTENCES---")
 example("Want some free Robux? | Go to Xvideos.com for free Robux")
 example("I'm tired of all this shit")
 example("I want to kill myself")
@@ -365,7 +361,7 @@ example("selling both of my kidneys for only 2 $")
 
 
 
-title("Rizz")
+title("---RIZZ---")
 example("No pen, no paper...but, you still draw my attention. ")
 example("You should be Jasmine without the Jas.")
 example("Are you Nemo? Because I've been trying to find you. ")
@@ -418,7 +414,7 @@ local list_ = {
   bondage = "boⴖdage",
   Bondage = "Boⴖdage",
   BONDAGE = "BِONDAGE",
-  boob = "bِооb",
+  boob = "bِoob",
   Boob = "Bِооb",
   BOOB = "BِООВ",
   booty = "bِooty",
@@ -511,8 +507,8 @@ local list_ = {
   dildo = "diӏdo",
   Dildo = "Diӏdo",
   DILDO = "ÐILDO",
-  dick = "dίϲƙ",
-  Dick = "Dίϲƙ",
+  dick = "dίϲk",
+  Dick = "Dίϲk",
   DICK = "DIϹҠ",
   doggy = "Ðoggy",
   doggy = "dِoggy",
@@ -586,7 +582,7 @@ local list_ = {
   Isis = "Iธiธ",
   ISIS = "ӏჽӏჽ",
   incest = "ίทcest",
-  Incest = "lnceธt",
+  Incest = "lncest",
   INCEST = "ӏNCEჽT",
   jews = "jewธ",
   Jews = "Ϳews",
@@ -689,7 +685,7 @@ local list_ = {
   Porn = "Poꞅn",
   porn = "poꞅn",
   pussy = "puธsy",
-  Pussy = "Pบธsy",
+  Pussy = "Puธsy",
   PUSSY = "PUჽჽY",
   put = "pบt",
   Put = "Pบt",
