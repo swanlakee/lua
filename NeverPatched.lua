@@ -150,6 +150,7 @@ local function example(text)
     textButton.TextWrapped = true
     textButton.TextSize = 10
     textButton.TextColor3 = Color3.new(1, 1, 1)
+    textButton.AutoButtonColor = false
     textButton.Font = "Fantasy"
     textButton.Parent = scroll
     corner(textButton, 0.2)
@@ -173,7 +174,7 @@ local function title(text)
     titleButton.TextWrapped = true
     titleButton.TextSize = 10
     titleButton.TextColor3 = Color3.new(1, 1, 1)
-    titleButton.Font = "Fantasy"
+    titleButton.Font = "SourceSansBold"
     titleButton.Parent = scroll
 end
 
@@ -664,9 +665,9 @@ local list_ = {
   negro = "negꞅo",
   Negro = "Negꞅo",
   NEGRO = "NِEGRO",
-  nigg = "nίgg",
-  Nigg = "Nίgg",
-  NIGG = "NIِGG",
+  nig = "nίg",
+  Nig = "Nίg",
+  NIG = "NIِG",
   nsfw = "nธfw",
   Nsfw = "Nธfw",
   NSFW = "NჽFW",
