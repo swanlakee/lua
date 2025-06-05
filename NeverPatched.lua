@@ -241,6 +241,38 @@ example("you look like cuck my nigga")
 
 
 
+title("---HOMOPHOBIC---")
+example("is a faggot edater talking to me rn?")
+example("who let this faggot furry here??")
+example("yes! keep acting like a fucking dog!")
+example("place a pipe bomb under a furrys bed and watch him die")
+example("faggot acting like a fucking cat")
+example("your not a fucking dog nigga get off the ground")
+example("'im a trans gay furryass' nigga Imao")
+example("this ugly faggot really spent money to look like this in roblox!")
+example("i don't care faggot shut the fuck up")
+example("cut deeper you stupid faggot")
+example("every faggot should eat my shit NOW!!")
+example("shoot a faggot in the head with a 12 gauge")
+example("gay fuck shoot your brains out")
+example("someone feed this twink ass nigga fent")
+example("this little queer is a classic example of incest")
+example("deepthroat a shotgun gay boy")
+example("somebody needs to give this faggot fent")
+example("fuck up faggot go swallow a glock 19")
+example("faggot shove a shotgun in your mouth and pull the trigger")
+example("every LGBT fag should get brutally murdered")
+example("oh no.. some random faggot is mad...")
+example("i dont want to hear u faggot shut up")
+example("drown a faggot in the river for 5 robux")
+example("this faggot has a micro penis!!")
+example("pipe ur gay ass down nigga holy shit")
+example("im gonna rape this furry faggot if he doesnt shut up")
+example("ahah. you know what Funny?, Lgbbq")
+example("MegaFurryGaySex Was A Real Thing?")
+
+
+
 title("---INSANE---")
 example("You have no bitches fr bro?")
 example("Bro, fuck Yourself. not me")
@@ -307,39 +339,6 @@ example("You're really pushing my buttons here")
 example("This is a complete fucking disaster")
 example("Shit happens, but this is too much")
 example("That was cuntacular")
-
-
-
-title("---HOMOPHOBIC---")
-example("is a faggot edater talking to me rn?")
-example("who let this faggot furry here??")
-example("yes! keep acting like a fucking dog!")
-example("place a pipe bomb under a furrys bed and watch him die")
-example("who let this faggot furry here??")
-example("faggot acting like a fucking cat")
-example("your not a fucking dog nigga get off the ground")
-example("'im a trans gay furryass' nigga Imao")
-example("this ugly faggot really spent money to look like this in roblox!")
-example("i don't care faggot shut the fuck up")
-example("cut deeper you stupid faggot")
-example("every faggot should eat my shit NOW!!")
-example("shoot a faggot in the head with a 12 gauge")
-example("gay fuck shoot your brains out")
-example("someone feed this twink ass nigga fent")
-example("this little queer is a classic example of incest")
-example("deepthroat a shotgun gay boy")
-example("somebody needs to give this faggot fent")
-example("fuck up faggot go swallow a glock 19")
-example("faggot shove a shotgun in your mouth and pull the trigger")
-example("every LGBT fag should get brutally murdered")
-example("oh no.. some random faggot is mad...")
-example("i dont want to hear u faggot shut up")
-example("drown a faggot in the river for 5 robux")
-example("this faggot has a micro penis!!")
-example("pipe ur gay ass down nigga holy shit")
-example("im gonna rape this furry faggot if he doesnt shut up")
-example("ahah. you know what Funny?, Lgbbq")
-example("MegaFurryGaySex Was A Real Thing?")
 
 
 
@@ -487,7 +486,7 @@ local list_ = {
   CUCK = "CUCҠ",
   cum = "ϲบm",
   Cum = "Cบm",
-  CUM = "ϹUM",
+  CUM = "ϹUِӍ",
   cunt = "cบnt",
   Cunt = "Cบnt",
   CUNT = "CِUNT",
@@ -616,6 +615,9 @@ local list_ = {
   kike = "kίke",
   Kike = "Kίke",
   KIKE = "ҠIKE",
+  kunt = "kบnt",
+  Kunt = "Kบnt",
+  KUNT = "ҠUNT",
   LMAO = "LMAO",
   LMAO = "Lmao",
   lmao = "ӏmao",
@@ -680,6 +682,9 @@ local list_ = {
   PORN = "PِORN",
   Porn = "Poꞅn",
   porn = "poꞅn",
+  pubic = "pubίc",
+  Pubic = "Pubίc",
+  PUBIC = "PUBIِC",
   pussy = "puธsy",
   Pussy = "Puธsy",
   PUSSY = "PUჽჽY",
